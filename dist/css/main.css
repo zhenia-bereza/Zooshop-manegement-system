@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=cyrillic-ext');
+
+body {
+    background: #c7ffb0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.active-link{
+    padding: 6px 14px;  
+    border: 2px solid #28a745;
+}
+
+.table-icon {
+    padding-top: 20px;
+}
+
+.table-link {
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.table-link:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links a {
+    display: inline-block;
+    margin-right: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #28a745;
+    text-decoration: none;
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+}
+
+.table td{
+    border: 1px solid #28a745;
+}
+
+@media (max-width: 768px) {
+    .nav-links a {
+        margin-bottom: 10px;
+    }
+}  
